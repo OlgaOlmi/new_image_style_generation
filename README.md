@@ -1,6 +1,7 @@
 # New image style generation based on pseudo-random variation of the reduced VQGAN latent space for a specific image
 
-This notebook demonstrates the use of VQGAN with my LatentAutoEncoder and a variation algorithm that modifies the reduced latent space to create new image appearances.
+By running this notebook, you can generate a new appearance for your image. It demonstrates the use of VQGAN with my LatentAutoEncoder and a variation algorithm that 
+modifies the reduced latent space of the input image to produce new styles.
 
 The LatentAutoEncoder is a reduced autoencoder for the VQGAN latent space. It compresses the VQGAN representation from 256 
 numbers per image patch to 4 numbers per patch while reconstructing the original VQGAN latent space with high quality.
